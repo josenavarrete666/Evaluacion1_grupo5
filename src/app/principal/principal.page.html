@@ -1,0 +1,30 @@
+<ion-header [translucent]="true">
+  <ion-toolbar >
+    <ion-title class="toolbar-title">Inicio</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+
+
+<ion-content [fullscreen]="true">
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <div id="center-content">
+    <h1  class="titulo">¡Bienvenido {{ usuario?.usuario }} !</h1>
+    <h1> a</h1>
+
+    <div id="logo">
+      <ion-img id="logoapp" src="/assets/img/logo3.PNG"></ion-img>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id="container">
+      <ion-button color="danger" (click)="volver()">Cerrar sesion</ion-button>
+    </div>
+  </div>
+</ion-content>
